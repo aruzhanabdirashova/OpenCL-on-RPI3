@@ -1,1 +1,3 @@
-I implemented parallel computing on Raspberry Pi3, but it is not full finished version.
+This project explores the implementation of OpenCL on the Raspberry Pi 3B+ to utilize its VideoCore IV GPU for parallel computing. It evaluates the performance of the GPU compared to the CPU using vector addition and multiplication algorithms, implemented with OpenCL kernels. The study benchmarks the execution time, speedup, and efficiency under different local work sizes to identify optimal configurations. The results demonstrate significant performance improvements with GPU acceleration, highlighting the potential for parallel computing on embedded systems with limited resources.
+
+Note: This is not the final product. Future work will include a deeper investigation into the optimal number of cores and the integration of CPU and GPU resources to further enhance computational performance and efficiency.
